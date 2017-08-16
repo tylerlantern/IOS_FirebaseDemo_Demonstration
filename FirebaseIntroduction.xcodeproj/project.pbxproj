@@ -68,7 +68,7 @@
 		BEB97E531F3C70D6009F3D1E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BEB97E551F3D96C8009F3D1E /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		BEB97E571F3DA310009F3D1E /* Serailizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Serailizable.swift; sourceTree = "<group>"; };
-		BEC2A0D31F4035C800E85F74 /* EditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditViewController.swift; path = FirebaseIntroductionTests/EditViewController.swift; sourceTree = SOURCE_ROOT; };
+		BEC2A0D31F4035C800E85F74 /* EditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditViewController.swift; path = FirebaseIntroduction/EditViewController.swift; sourceTree = SOURCE_ROOT; };
 		BEC2A0D61F403D4200E85F74 /* FBApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBApi.swift; sourceTree = "<group>"; };
 		BEE7193D1F3C142A005C3250 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BEF588B01F3C3E0C003F8ECD /* FirebaseAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseAPI.swift; sourceTree = "<group>"; };
