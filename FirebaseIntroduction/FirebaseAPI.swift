@@ -7,7 +7,8 @@
 //
 
 import UIKit
-
+//import Firebase
+import FirebaseDatabase
 class FirebaseAPI: NSObject {
-
+    var ref: DatabaseReference!
 }

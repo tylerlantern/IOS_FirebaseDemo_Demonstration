@@ -9,13 +9,22 @@
 import UIKit
 
 class EditViewController: UIViewController {
-
+    @IBOutlet weak var lb_identifier: UILabel!
+    @IBOutlet weak var tb_name: UITextField!
+    var fbApi : FBApi!
+    var product : Product!
+    var indexPath : IndexPath!
+    @IBAction func action_done(_ sender: Any) {
+        product.name = tb_name.text
+        fbApi.update(product: product)
+        self.navigationController?.popViewController(animated: true)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        fbApi = FBApi()
+        lb_identifier.text = product.id
+        tb_name.text = product.name
     }
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

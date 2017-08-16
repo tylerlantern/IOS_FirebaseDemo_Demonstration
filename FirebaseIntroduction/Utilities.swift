@@ -7,7 +7,9 @@
 //
 
 import UIKit
-
-class Utilities: NSObject {
-
+import Firebase
+func FBSnapShotToDictForClassMapping( any :Any ) -> (data : DataSnapshot,value : [String:AnyObject]) {
+    let data = any as! DataSnapshot
+    let value = data.value as! [String:AnyObject]
+    return (data,value)
 }
