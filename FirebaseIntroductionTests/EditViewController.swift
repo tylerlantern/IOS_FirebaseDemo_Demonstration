@@ -1,14 +1,14 @@
 //
-//  ViewController.swift
+//  EditViewController.swift
 //  FirebaseIntroduction
 //
-//  Created by Nattapong Unaregul on 8/10/17.
+//  Created by Nattapong Unaregul on 8/13/17.
 //  Copyright © 2017 Nattapong Unaregul. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class EditViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
